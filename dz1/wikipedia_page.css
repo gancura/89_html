@@ -27,7 +27,7 @@ ol ol > li:before {
 }
 
 
-h4 {
+.title {
     font-size: 200%; /* Размер шрифта */
     border-bottom: 2px solid #1d0007; /* Параметры линии под текстом */
     font-weight: normal; /* Убираем жирное начертание */
@@ -35,11 +35,12 @@ h4 {
 }
 
 .aim {
-    width: 30%; /* Размеры */
+    width: 20%; /* Размеры */
     background:Snow; /* Цвет фона */
     outline: 2px solid #000; /* Чёрная рамка */
     border-radius: 10px; /* Радиус скругления */
     padding-bottom: 10px;
+    margin-left: 40px;
 }
 
 .aim > h3 {

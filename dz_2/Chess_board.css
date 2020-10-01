@@ -1,0 +1,75 @@
+.wrp{
+    margin: 0px auto;
+    width: 1000px;
+    height: 1000px;
+    background:url("background_1.jpg");
+    color: #dab542;
+    text-shadow: 1px 1px 1px #000;
+    font-size: 60px;
+    text-align: center;
+    outline: 4px solid #000; /* Чёрная рамка */
+    border: 1000px; /* Радиус скругления */
+}
+
+.size{
+    width: 100px;
+    height: 100px;
+}
+
+.white{
+    background: url("white_board.jpg");
+}
+
+.black{
+    background: url("black_board.jpg");
+}
+
+.col-1{
+    margin-left: 100px;
+    margin-top: -1000px;
+}
+
+.col-2{
+    margin-left: 200px;
+    margin-top: -1000px;
+}
+
+.col-3{
+    margin-left: 300px;
+    margin-top: -1000px;
+}
+
+.col-4{
+    margin-left: 400px;
+    margin-top: -1000px;
+}
+
+.col-5{
+    margin-left: 500px;
+    margin-top: -1000px;
+}
+
+.col-6{
+    margin-left: 600px;
+    margin-top: -1000px;
+}
+
+.col-7{
+    margin-left: 700px;
+    margin-top: -1000px;
+}
+
+.col-8{
+    margin-left: 800px;
+    margin-top: -1000px;
+}
+
+.col-9{
+    margin-left: 900px;
+    margin-top: -1000px;
+}
+
+.turn{
+    transform: rotate(180deg);
+
+}

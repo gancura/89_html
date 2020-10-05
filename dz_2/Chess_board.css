@@ -2,7 +2,7 @@
     margin: 0px auto;
     width: 1000px;
     height: 1000px;
-    background:url("background_1.jpg");
+    background:url("img/background_1.jpg");
     color: #dab542;
     text-shadow: 1px 1px 1px #000;
     font-size: 60px;
@@ -17,11 +17,11 @@
 }
 
 .white{
-    background: url("white_board.jpg");
+    background: url("img/white_board.jpg");
 }
 
 .black{
-    background: url("black_board.jpg");
+    background: url("img/black_board.jpg");
 }
 
 .col-1{

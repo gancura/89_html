@@ -1,0 +1,21 @@
+@media (max-width: 800px) {
+    .wrap{
+        font-size: 150%;
+    }
+
+    .side-l {
+        width: 100%;
+        min-height: 1px;
+    }
+
+    .center {
+        width: 100%;
+        min-height: 1px;
+        margin: 1% 0px;
+    }
+
+    .side-r {
+        width: 100%;
+        min-height: 1px;
+    }
+}

@@ -1,0 +1,121 @@
+.wrap {
+    max-width: 1000px;
+    margin: 0px auto;
+    background: azure;
+}
+
+#logo {
+    width: 30%;
+    min-height: 300px;
+    background: darkgreen;
+    float: left;
+    text-align: center;
+}
+
+#lion {
+    margin-top: 60px;
+}
+
+#orange_block {
+    width: 69%;
+    min-height: 145px;
+    background: orangered;
+    float: left;
+    margin-left: 1%;
+    text-align: center;
+}
+
+.white {
+    width: 17%;
+    min-height: 100px;
+    background: white;
+    float: left;
+    margin-left: 2.5%;
+    margin-top: 3%;
+}
+
+.link {
+    text-align: center;
+    margin: 35px auto;
+    font-size: 20px;
+    display: block;
+}
+
+#small_lion {
+    margin-top: 20px;
+}
+
+#pink_block {
+    width: 69%;
+    min-height: 145px;
+    background: deeppink;
+    float: left;
+    margin-left: 1%;
+    margin-top: 10px;
+}
+
+.pink_inner {
+    width: 48%;
+    min-height: 130px;
+    background: hotpink;
+    float: left;
+    margin-left: 1.45%;
+    margin-top: 1%;
+}
+
+.vert {
+    width: 100%;
+    min-height: 60px;
+    background: navajowhite;
+    float: left;
+}
+
+.margin_bottom {
+    margin-bottom: 10px;
+}
+
+.horizontal {
+    width: 49%;
+    min-height: 130px;
+    background: navajowhite;
+    float: left;
+}
+
+.pink_inner_margin_right {
+    margin-right: 2%;
+}
+
+.blue_block {
+    width: 24.25%;
+    min-height: 190px;
+    background: darkblue;
+    float: left;
+    margin-top: 1%;
+    color: whitesmoke;
+}
+
+.margin_right {
+    margin-right: 1%;
+}
+
+.text_center {
+    text-align: center;
+    margin-top: 85px;
+    display: block;
+}
+
+.text_left_bottom {
+    text-align: left;
+    margin-top: 170px;
+    display: block;
+}
+
+.clear {
+    clear: both;
+}
+
+footer {
+    height: 100px;
+    background: #333;
+    margin-top: 10px;
+}

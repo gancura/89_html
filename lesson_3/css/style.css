@@ -1,0 +1,46 @@
+.wrap {
+	max-width: 1000px;
+	margin: 0px auto;
+	background: #ccc;
+	color: white;
+}
+
+header {
+	height: 150px;
+	background: darkblue;
+	margin-bottom: 10px;
+}
+
+.side-l {
+	width: 20%;
+	min-height: 500px;
+	background: darkgreen;
+	float: left;
+}
+
+.center {
+	width: 63%;
+	min-height: 400px;
+	background: darkred;
+	float: left;
+	margin: 0px 1%;
+}
+
+.side-r {
+	width: 15%;
+	min-height: 500px;
+	background: olive;
+	float: left;
+	overflow: auto;
+}
+
+.clear {
+clear: both;
+}
+
+footer {
+    height: 100px;
+	background: #333;
+	margin-top: 10px;
+	
+}

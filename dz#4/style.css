@@ -1,0 +1,241 @@
+body {
+    margin: 0px;
+}
+
+header {
+    background: darkgrey;
+    height: 80px;
+    /*background: #D0D0D0;*/
+    background: -webkit-linear-gradient(top, #D0D0D0, #464A4A);
+    background: -moz-linear-gradient(top, #D0D0D0, #464A4A);
+    background: linear-gradient(to bottom, #D0D0D0, #464A4A);
+}
+
+.wrap_header {
+    margin: 0px auto;
+    max-width: 1000px;
+    position: relative;
+}
+
+.menu {
+    height: 60px;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    display: none;
+}
+
+h1 {
+    position: absolute;
+}
+
+h1 a {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+h1 a span {
+    text-transform: lowercase;
+}
+
+nav {
+    position: absolute;
+    right: 0px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0px;
+}
+
+nav > ul > li {
+    float: left;
+    margin: 16px 12px;
+}
+
+nav ul li a {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 14px;
+    border-radius: 10px;
+}
+
+.active {
+    background: dimgrey;
+}
+
+nav > ul > li > a:hover {
+    background: dimgrey;
+}
+
+.sub {
+    background: ghostwhite;
+    border-radius: 10px;
+    padding: 6px;
+    min-width: 150px;
+    position: absolute;
+    display: none;
+    z-index: 4;
+}
+
+nav ul li:hover .sub {
+    display: block;
+}
+
+.sub li {
+    background: indianred;
+    border-radius: 6px;
+    margin: 4px 0px;
+}
+
+.sub li:hover {
+    background: grey;
+}
+
+.sub li a {
+    display: block;
+    padding: 3px 14px;
+}
+
+#arrow_down {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.logo {
+    float: right;
+    width: 100px;
+    height: auto;
+    margin: 6px;
+}
+
+#logo_item {
+    margin: 0px;
+}
+
+/*.wrap_content{*/
+/*margin: 0px auto;*/
+/*max-width: 1000px;*/
+/*position: relative;*/
+/*z-index: -1;*/
+/*}*/
+
+#mini_cooper1 {
+    width: 100%;
+    min-height: 850px;
+    float: left;
+    background: url("img/mini_cooper.jpg");
+}
+
+.block_1 {
+    width: 250px;
+    min-height: 10px;
+    float: left;
+    margin-left: 2.5%;
+    margin-top: 4%;
+    border: solid black;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    background: #ffffffe0;
+    text-align: center;
+}
+
+#flag {
+    width: 100%;
+    min-height: 700px;
+    float: left;
+    background: url("img/flag.jpg");
+}
+
+.button {
+    color: inherit;
+    border: solid black;
+    background: #ffffffe0;
+    height: 50px;
+    min-width: 15%;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    border-radius: 20px;
+}
+
+.button:hover {
+    background-color: red;
+    color: white;
+}
+
+.block_2 {
+    width: 27%;
+    min-height: 350px;
+    background: #e4efedf5;
+    float: left;
+    margin-left: 5%;
+    margin-top: 5%;
+    text-align: center;
+}
+
+#mini_cooper2 {
+    width: 100%;
+    min-height: 930px;
+    background: url("img/mini_cooper_2.jpg");
+    float: left;
+}
+
+.block_3 {
+    width: 350px;
+    min-height: 40%;
+    border: solid black;
+    border-radius: 180px;
+    background: #ffffffe0;
+    position: absolute;
+    margin-left: 25px;
+    margin-top: 400px;
+    text-align: center;
+
+}
+
+#description {
+    text-align: center;
+    margin-top: 80px;
+}
+
+#city {
+    margin: 0px 50px;
+    color: white;
+    text-align: -moz-left;
+}
+
+#dealer {
+    color: white;
+    margin-left: 50px;
+    text-align: -moz-left;
+}
+
+#address {
+    color: white;
+    margin-left: 50px;
+    text-align: -moz-left;
+}
+
+#contacts {
+    color: white;
+    float: right;
+    margin-right: 50px;
+}
+
+.clear {
+    clear: both;
+}
+
+footer {
+    height: 100px;
+    background: #333;
+}

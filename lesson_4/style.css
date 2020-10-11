@@ -1,0 +1,87 @@
+body{
+    margin: 0px;
+}
+
+header {
+    background: lightgreen;
+    height: 80px;
+}
+
+.wrap {
+    margin: 0px auto;
+    max-width: 1000px;
+    position: revert;
+}
+
+h1 {
+    position: absolute;
+}
+
+h1 a {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+h1 a span {
+    text-transform: lowercase;
+}
+
+nav {
+    position: absolute;
+    right: 0px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0px;
+}
+
+nav > ul > li {
+    float: left;
+    margin: 16px 12px;
+}
+
+nav ul li a {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 14px;
+    border-radius: 10px;
+}
+
+.active {
+    background: green;
+}
+
+nav > ul > li > a:hover {
+    background: orange;
+}
+
+.sub {
+    background: orangered;
+    border-radius: 10px;
+    padding: 6px;
+    min-width: 150px;
+    position: absolute;
+    display: none;
+}
+
+nav ul li:hover .sub {
+display: block;
+}
+
+.sub li {
+    background: orange;
+    border-radius: 6px;
+    margin: 4px 0px;
+}
+
+.sub li:hover{
+background: lightgreen;
+}
+
+.sub li a{
+    display: block;
+    padding: 3px 14px;
+}

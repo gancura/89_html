@@ -1,0 +1,146 @@
+.logo{
+    padding: 5px;
+    width: 100px;
+}
+
+.navbar {
+    background: darkgrey;
+    background: -webkit-linear-gradient(top, #D0D0D0, #464A4A);
+    background: -moz-linear-gradient(top, #D0D0D0, #464A4A);
+    background: linear-gradient(to bottom, #D0D0D0, #464A4A);
+    margin-bottom: 0px;
+    border: 0px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: black;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: black;
+}
+
+#mini_cooper1 {
+    min-height: 850px;
+    background-image: url("img/mini_cooper.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.block_1 {
+    width: 250px;
+    min-height: 10px;
+    float: left;
+    margin-left: 2.5%;
+    margin-top: 4%;
+    border: solid black;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    background: #ffffffe0;
+    text-align: center;
+}
+
+#flag {
+    min-height: 500px;
+    background: url("img/flag.jpg");
+}
+
+.button {
+    color: inherit;
+    border: solid black;
+    background: #ffffffe0;
+    height: 50px;
+    min-width: 15%;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    border-radius: 20px;
+}
+
+.button:hover {
+    background-color: red;
+    color: white;
+}
+
+.block_2 {
+    background: #e4efedf5;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.row {
+    margin-right: 0px;
+}
+
+#mini_cooper2 {
+    width: 100%;
+    min-height: 930px;
+    background: url("img/mini_cooper_2.jpg");
+    float: left;
+}
+
+.block_3 {
+    width: 350px;
+    min-height: 40%;
+    border: solid black;
+    border-radius: 180px;
+    background: #ffffffe0;
+    position: absolute;
+    margin-left: 25px;
+    margin-top: 400px;
+    text-align: center;
+}
+
+#description {
+    text-align: center;
+    margin-top: 80px;
+}
+
+#city {
+    margin: 0px 50px;
+    color: white;
+    text-align: -moz-left;
+}
+
+#dealer {
+    color: white;
+    margin-left: 50px;
+    text-align: -moz-left;
+}
+
+#address {
+    color: white;
+    margin-left: 50px;
+    text-align: -moz-left;
+}
+
+#contacts {
+    color: white;
+    float: right;
+    margin-right: 50px;
+}
+
+.clear {
+    clear: both;
+}
+
+footer {
+    height: 100px;
+    background: #333;
+}
+
+
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: white;
+    }
+
+    .navbar-nav .open .dropdown-menu {
+        background-color: #ff9c9c8c;
+    }
+}

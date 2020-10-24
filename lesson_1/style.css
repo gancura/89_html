@@ -1,0 +1,38 @@
+body{
+    background: green;
+}
+h2 {
+    color: white;
+    font-size:60px;
+    font-weight: normal;
+    text-align: center;
+background: orange;
+    width:600px;
+    height:230px;
+    /*margin-left: 540px;*/
+    /*margin: 200px;*/
+    /*margin: 200px 400px;*/
+    /*margin: 100px 200px 300px 400px;*/
+    margin: 50px auto;
+
+    /*padding: 50px;*/
+    padding-top: 170px;
+
+}
+
+ol {
+    counter-reset: item;
+}
+
+ol > li {
+    counter-increment: item;
+}
+
+ol ol > li {
+    display: block;
+}
+
+ol ol > li:before {
+    content: counters(item, ".") ". ";
+    margin-left: -20px;
+}

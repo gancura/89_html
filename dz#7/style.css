@@ -1,0 +1,175 @@
+body {
+    font-size: 12px;
+}
+
+.header {
+    background: #5b6169;
+    border: 0px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}
+
+.nav {
+    padding-left: 55%;
+    padding-top: 3%;
+}
+
+.header_text {
+    background: -webkit-linear-gradient(180deg, rgb(249, 249, 249), rgb(128, 135, 135));
+    background: -moz-linear-gradient(180deg, rgb(249, 249, 249), rgb(128, 135, 135));
+    background: linear-gradient(180deg, rgb(249, 249, 249), rgb(128, 135, 135));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.block_carousel {
+    background-image:radial-gradient(circle, #ffffff, #eaf9ff, #b6fbff, #68ffff, #0affea);;
+}
+
+.carousel-indicators {
+    text-align: right;
+}
+
+.carousel-inner {
+    height: 500px;
+}
+
+.iphone{
+    max-height: 70%;
+    padding-left: 30%;
+    padding-top: 6.4%;
+}
+
+.android {
+    max-height: 100%;
+    padding-left: 23%;
+    padding-top: 4%;
+}
+
+.windows{
+    max-height: 600px;
+    padding-left: 28%;
+    padding-top: 9%;
+}
+
+.text_block {
+    max-width: 50%;
+    padding-top: 6%;
+}
+
+.header-h1 {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.header-h1:before,
+.header-h1:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 1.5px solid #000;
+    margin: auto 5px;
+}
+
+#block_of_icons {
+    background: white;
+    max-width: 1400px;
+    text-align: center;
+    margin-right: 15px;
+    margin-left: 200px;
+}
+
+.heading{
+    color: #3674ba;
+}
+
+.button {
+    color: white;
+    border: white;
+    background: #3674ba;
+    height: 35px;
+    min-width: 60%;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.block_2 {
+    background: white;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.block_text {
+    background: #d1d1d1;
+}
+
+#about {
+    max-width: 1400px;
+    text-align: center;
+    margin-right: 15px;
+    margin-left: 200px;
+    background: #d1d1d1;
+}
+
+.block_3 {
+    background: #d1d1d1;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.btn-large {
+    left: 86.2%;
+    top: 93%;
+    position: absolute;
+    background-color: #3674ba;
+    /*width: 70px;*/
+    right: 100%;
+    height: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+#here {
+    margin: 0px 50px;
+    color: black;
+    text-align: center;
+    padding-top: 30px;
+}
+
+footer {
+    height: 100px;
+    background: white;
+
+}
+
+@media (min-width: 1000px) {
+    #about{
+        margin-left: 10px;
+    }
+    #block_of_icons{
+        margin-left: 10px;
+    }
+    .iphone{
+
+        padding-top: 6.4%;
+    }
+
+    .android {
+
+        padding-top: 4%;
+    }
+
+    .windows{
+
+        padding-top: 9%;
+    }
+}

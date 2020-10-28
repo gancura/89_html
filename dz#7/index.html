@@ -33,7 +33,7 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-                <li><a href="#OUR SERVICES">OUR SERVICES</a></li>
+                <li><a href="#our">OUR SERVICES</a></li>
                 <li><a href="#about">ABOUT</a></li>
             </ul>
         </div><!-- /.navbar-collapse -->
@@ -42,105 +42,73 @@
 
 <div class="container-fluid">
     <div class="row block_carousel">
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#myCarousel" data-slide-to="1"></li>
-                <li data-target="#myCarousel" data-slide-to="2"></li>
-            </ol>
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner">
-                <div class="item active">
-
-                    <div class="row">
-                        <div class="ccol-xs-10 col-xs-offset-1 col-sm-8 col-md-4 col-lg-6">
-                            <img class="iphone" src="img/iphon.png" alt="Los Angeles">
-                        </div>
-                        <div class="text_block col-xs-10 col-xs-offset-1 col-sm-8 col-md-4 col-lg-6">
-                            <h3>iOS Free Apps</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium ad assumenda
-                                deserunt dignissimos eaque molestiae necessitatibus, nisi odit possimus quos rerum.
-                                Delectus
-                                dicta doloremque, illo magnam mollitia ratione vel.</p>
-                            <button class="button">more info</button>
+        <div class="col-xs-offset-1 col-xs-6 col-sm-5">
+            <img class="iphone" src="img/short-iphone.png">
+            <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                </ol>
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <div class="row">
+                            <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-md-4 col-lg-6">
+                                <img src="img/desktop1.png" width="281px">
+                            </div>
                         </div>
                     </div>
-                </div>
-
-                <div class="item">
-                    <div class="row">
-                        <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-md-4 col-lg-3">
-                            <img class="android" src="img/android_smartphone.png" alt="Los Angeles">
-                        </div>
-                        <div class="text_block col-xs-10 col-xs-offset-1 col-sm-8 col-md-4 col-lg-3">
-                            <h3>Android</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium ad assumenda
-                                deserunt dignissimos eaque molestiae necessitatibus, nisi odit possimus quos rerum.
-                                Delectus
-                                dicta doloremque, illo magnam mollitia ratione vel.</p>
-                            <button class="button">more info</button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="item">
-                    <div class="row">
-                        <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-md-4 col-lg-3">
-                            <img class="windows" src="img/windows_phone.png" alt="Los Angeles">
-                        </div>
-                        <div class="text_block col-xs-10 col-xs-offset-1 col-sm-8 col-md-4 col-lg-3">
-                            <h3>Windows</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium ad assumenda
-                                deserunt dignissimos eaque molestiae necessitatibus, nisi odit possimus quos rerum.
-                                Delectus
-                                dicta doloremque, illo magnam mollitia ratione vel.</p>
-                            <button class="button">more info</button>
+                    <div class="item">
+                        <div class="row">
+                            <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-md-4 col-lg-6">
+                                <img src="img/desktop2.png" width="281px">
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-
-            <!-- Left and right controls -->
-            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                <!--<span class="glyphicon glyphicon-chevron-left"></span>-->
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                <!--<span class="glyphicon glyphicon-chevron-right"></span>-->
-                <span class="sr-only">Next</span>
-            </a>
+        </div>
+        <div class="iphone_content col-xs-5 col-sm-offset-1 col-sm-3 col-md-offset-1 col-md-3">
+            <h3>iOS Apps for FREE</h3>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium ad assumenda
+                deserunt dignissimos eaque molestiae necessitatibus.
+            </p>
+            <button type="button" class="btn btn-primary btn-lg btn-block">More info</button>
         </div>
     </div>
     <div class="row">
         <div id="block_of_icons">
-            <div class="row">
-                <div>
-                    <h1 id="OUR SERVICES" class="header-h1">OUR SERVICES</h1>
+            <div class="row header-line">
+                <div id="our">
+                    <h1 class="header-h1">OUR SERVICES</h1>
                 </div>
-                <div class="block_2 col-xs-10 col-xs-offset-1 col-sm-8 col-md-4 col-lg-3">
+            </div>
+            <div class="row">
+                <div class="block_2 col-xs-offset-1 col-xs-10 col-sm-10 col-md-3 col-md-offset-1 col-lg-3">
                     <img src="img/apple.png">
                     <h3 class="heading">Heading 1</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium ad assumenda
                         deserunt dignissimos eaque molestiae necessitatibus, nisi odit possimus quos rerum. Delectus
                         dicta doloremque, illo magnam mollitia ratione vel.</p>
-                    <button class="button">more info</button>
+                    <button class="btn btn-primary btn-lg">more info</button>
                 </div>
-                <div class="block_2 col-xs-10 col-xs-offset-1 col-sm-8 col-md-4 col-lg-3">
+                <div class="block_2 col-xs-offset-1 col-xs-10 col-sm-10 col-md-3 col-md-offset-1 col-lg-3">
                     <img src="img/android.png">
                     <h3 class="heading">Heading 2</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium ad assumenda
                         deserunt dignissimos eaque molestiae necessitatibus, nisi odit possimus quos rerum. Delectus
                         dicta doloremque, illo magnam mollitia ratione vel.</p>
-                    <button class="button">more info</button>
+                    <button class="btn btn-primary btn-lg">more info</button>
                 </div>
-                <div class="block_2 col-xs-10 col-xs-offset-1 col-sm-8 col-md-4 col-lg-3">
+                <div class="block_2 col-xs-offset-1 col-xs-10 col-sm-10 col-md-3 col-md-offset-1 col-lg-3">
                     <img src="img/win8.png">
                     <h3 class="heading">Heading 3</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium ad assumenda
                         deserunt dignissimos eaque molestiae necessitatibus, nisi odit possimus quos rerum. Delectus
                         dicta doloremque, illo magnam mollitia ratione vel.</p>
-                    <button class="button">more info</button>
+                    <button class="btn btn-primary btn-lg">more info</button>
                 </div>
             </div>
         </div>
@@ -156,11 +124,11 @@
                     <div class="col-6 col-sm-4">
                         <h1>Test task</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
                         <h3 class="heading">SKILLS</h3>
                         <div class="progress">
@@ -188,50 +156,83 @@
                     <!-- Заставит следующие колонки перейти на следующую строку на брейкпойнте md и выше -->
                     <div class="w-100 d-none d-md-block"></div>
 
+                    <div class=" map col-6 col-sm-4">
+                        <div id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3">
+                            <div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3"></div>
+                            <script>(function () {
+                                var setting = {
+                                    "height": 250,
+                                    "width": 600,
+                                    "zoom": 15,
+                                    "queryString": "МОСТ-Сіті, улица Глинки, Днипро, Днепропетровская область, Украина",
+                                    "place_id": "ChIJvUECxsLi20ARPhsFSECWnJk",
+                                    "satellite": false,
+                                    "centerCoord": [48.46241039816278, 35.00035641063716],
+                                    "cid": "0x999c964048051b3e",
+                                    "lang": "ru",
+                                    "cityUrl": "/ukraine/dnipro-33401",
+                                    "cityAnchorText": "Карта [CITY1], Днепропетровская область, Украина",
+                                    "id": "map-9cd199b9cc5410cd3b1ad21cab2e54d3",
+                                    "embed_id": "297634"
+                                };
+                                var d = document;
+                                var s = d.createElement('script');
+                                s.src = 'https://1map.com/js/script-for-user.js?embed_id=297634';
+                                s.async = true;
+                                s.onload = function (e) {
+                                    window.OneMap.initMap(setting)
+                                };
+                                var to = d.getElementsByTagName('script')[0];
+                                to.parentNode.insertBefore(s, to);
+                            })();</script>
+                            <a href="https://1map.com/ru/map-embed">1 Map</a></div>
+                    </div>
                     <div class="col-6 col-sm-4">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2645.445242994896!2d35.04858630139772!3d48.467172736024274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3d6052060eb42114!2z0KLQoNCmICLQnNC-0YHRgi3QodC40YLQuCI!5e0!3m2!1sru!2sua!4v1603695899904!5m2!1sru!2sua" width="590" height="190" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
-                        </iframe>
                         <form class="contact-form php-mail-form" role="form" action="php/send.php" method="POST">
 
-                        <div class="form-group">
-                        <input type="name" name="name" class="form-control" id="contact-name" placeholder="NAME" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
-                        <div class="validate"></div>
-                        </div>
-                        <div class="form-group">
-                        <input type="email" name="email" class="form-control" id="contact-email" placeholder="Email" data-rule="email" data-msg="Please enter a valid email">
-                        <div class="validate"></div>
-                        </div>
-                        <div class="form-group">
-                        <input type="tel" name="tel" class="form-control" id="contact-tel" placeholder="PHONE" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject">
-                        <div class="validate"></div>
-                        </div>
-                        <div class="form-group">
-                        <textarea class="form-control" name="text" id="contact-message" placeholder="MESSAGE" rows="3" data-rule="required" data-msg="Please write something for us"></textarea>
-                        <div class="validate"></div>
-                        </div>
+                            <div class="form-group">
+                                <input type="name" name="name" class="form-control" id="contact-name" placeholder="NAME"
+                                       data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                                <div class="validate"></div>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" name="email" class="form-control" id="contact-email"
+                                       placeholder="Email" data-rule="email" data-msg="Please enter a valid email">
+                                <div class="validate"></div>
+                            </div>
+                            <div class="form-group">
+                                <input type="tel" name="tel" class="form-control" id="contact-tel" placeholder="PHONE"
+                                       data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject">
+                                <div class="validate"></div>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" name="text" id="contact-message" placeholder="MESSAGE"
+                                          rows="3" data-rule="required"
+                                          data-msg="Please write something for us"></textarea>
+                                <div class="validate"></div>
+                            </div>
 
-                        <div class="loading"></div>
-                        <div class="error-message"></div>
-                        <!--<div class="sent-message">Your message has been sent. Thank you!</div>-->
+                            <div class="loading"></div>
+                            <div class="error-message"></div>
+                            <!--<div class="sent-message">Your message has been sent. Thank you!</div>-->
 
-                        <div class="form-send">
-                        <button type="submit" name="send" class="btn btn-large">SEND</button>
-                        </div>
+                            <div class="form-send">
+                                <button type="submit" name="send" class="btn btn-large">SEND</button>
+                            </div>
 
                         </form>
                     </div>
-                    <!--<div class="col-6 col-sm-4">.col-6 .col-sm-4</div>-->
-                </div>
-        <footer>
-            <div>
-                <h3 id="here">Copyrights here</h3>
-            </div>
-        </footer>
-      </div>
-</div>
-</div>
-</div>
 
+                </div>
+                <footer>
+                    <div>
+                        <h3 id="here">Copyrights here</h3>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+</div>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

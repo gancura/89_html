@@ -1,3 +1,6 @@
+.container-fluid {
+    min-width: 450px;
+}
 
 .navbar {
     background: #5b6169;
@@ -35,70 +38,47 @@
 }
 
 .block_carousel {
-    background-image:radial-gradient(circle, #ffffff, #eaf9ff, #b6fbff, #68ffff, #0affea);;
+    background-image: radial-gradient(circle, #ffffff, #eaf9ff, #b6fbff, #68ffff, #0affea);
     position: relative;
+    height: 500px;
+    z-index: -1;
 }
 
 .carousel-indicators {
-    text-align: right;
+    margin-left: 49%;
 }
 
 .carousel-inner {
-    height: 500px;
+    max-height: 500px;
+    height: 338px;
 }
 
-.iphone{
-    /*max-height: 70%;*/
-    /*float: left;*/
-    /*padding-left: 30%;*/
-    /*padding-top: 6.4%;*/
-    width: 400px;
-    /*min-height: 40%;*/
-    position: relative;
-    margin-left: 25px;
-    padding: 17% 10% 10% 9%;
-}
-
-.android {
-    /*max-height: 100%;*/
-    /*float: left;*/
-    /*padding-left: 23%;*/
-    /*padding-top: 4%;*/
-    width: 650px;
-    /*min-height: 40%;*/
-    position: relative;
-    margin-left: 25px;
-    padding: 17% 10% 10% 9%;
-}
-
-.windows{
-    /*max-height: 600px;*/
-    /*float: left;*/
-    /*padding-left: 28%;*/
-    /*padding-top: 9%;*/
-    width: 600px;
-    /*min-height: 40%;*/
-    position: relative;
-    margin-left: 25px;
-    padding: 17% 10% 10% 9%;
-}
-
-.text_block {
-    /*max-width: 50%;*/
-    /*float: right;*/
-    /*padding-top: 6%;*/
+.item {
     position: absolute;
-    right: 5%;
-    text-align: left;
-    /* top: 10px; */
-    margin-top: 50px;
-    /* display: none; */
-    /*z-index: 1;*/
-    width: 40%;
-    /*font-family: 'Open Sans', sans-serif;*/
-    font-size: 18px;
-    color: black;
-    float: left;
+    width: 100px;
+    height: 120px;
+}
+
+.carousel {
+    position: relative;
+    width: 281px;
+    margin-left: 24px;
+    margin-top: 163px;
+    z-index: -1;
+}
+
+.iphone {
+    background-repeat: no-repeat;
+    max-width: 350px;
+    padding: 86px 20px 0 10px;
+    z-index: -1;
+    position: absolute;
+}
+
+.iphone_content {
+    background: none;
+    z-index: 10;
+    margin-top: 200px;
 }
 
 .header-h1 {
@@ -115,26 +95,21 @@
     margin: auto 5px;
 }
 
+.header-line {
+    height: 150px;
+    z-index: 5;
+}
+
 #block_of_icons {
     background: white;
-    max-width: 1400px;
     text-align: center;
     margin-right: 15px;
-    margin-left: 200px;
+    z-index: 10;
+    position: relative;
 }
 
 .heading{
     color: #3674ba;
-}
-
-.button {
-    color: white;
-    border: white;
-    background: #3674ba;
-    height: 35px;
-    min-width: 60%;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
 }
 
 .button:hover {
@@ -143,8 +118,6 @@
 }
 
 .block_2 {
-    background: white;
-    margin-top: 5%;
     margin-bottom: 5%;
 }
 
@@ -160,6 +133,13 @@
     margin-bottom: 30px;
 }
 
+#our {
+    margin: 40px 30px 20% 10%;
+    text-align: center;
+    position: relative;
+    z-index: 10;
+}
+
 .block_3{
     margin-right: 15px;
     margin-bottom: 50px;
@@ -167,7 +147,7 @@
 
 .btn-large {
     left: 87.2%;
-    top: 89.5%;
+    top: 80.5%;
     position: absolute;
     background-color: #3674ba;
     /*width: 70px;*/
@@ -186,6 +166,10 @@
     -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
     box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
     margin-right: 20px;
+}
+
+.map {
+    margin-bottom: 15px;
 }
 
 .skills {
@@ -216,20 +200,6 @@ footer {
     #block_of_icons{
         margin-left: 10px;
     }
-    .iphone{
-
-        padding-top: 6.4%;
-    }
-
-    .android {
-
-        padding-top: 4%;
-    }
-
-    .windows{
-
-        padding-top: 9%;
-    }
 
     .block_3 {
         width: 70%;
@@ -241,12 +211,19 @@ footer {
     }
 
     .btn-large {
-        left: 76.1%;
-        top: 92.4%;
+        left: 77.1%;
+        top: 86%
     }
 
-    .carousel-inner {
-        width: 50%;
+    .iphone_content {
+        background: rgba(207, 249, 249, 0.77);
+        padding-bottom: 15px;
+        position: absolute;
+        right: 10px;
+    }
+
+    .carousel-indicators {
+        margin-left: 33%;
     }
 
 }

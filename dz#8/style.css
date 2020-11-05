@@ -1,0 +1,718 @@
+.block_1 {
+    height: 500px;
+    background: url("img/block_1.png");
+    margin: -8px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 8%;
+
+}
+
+.element-1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 50px;
+}
+
+.element-2 {
+    margin-top: 5%;
+}
+
+.element-3 a {
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    background-color: #78717145;
+    padding: 5px 25px;
+    border: 2px solid;
+    margin-top: 5%;
+    margin-left: -6%;
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden
+}
+
+header {
+    width: 100%;
+    display: table;
+    margin-bottom: 35px
+}
+
+.container {
+    width: 100%;
+    padding-top: 50px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto
+}
+
+.button {
+    color: white;
+    background-color: firebrick;
+}
+
+.button:hover {
+    color: gainsboro;
+}
+
+.block_2 {
+    min-height: 400px;
+    margin-top: 50PX;
+}
+
+.wrap {
+    width: 76vw;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    min-height: 400px;
+}
+
+.flex-container-1 {
+    flex-wrap: wrap;
+    height: auto;
+    display: flex;
+    margin-top: 20px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.advantage {
+    color: black;
+    background-color: #ffffff;
+    padding: 10px 15px;
+    margin: 20px 5px;
+    max-width: 200px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    -webkit-box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.75);
+    box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.75);
+}
+
+.headline {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.subtitle {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+}
+
+.block_3 {
+    background-image: url(img/block_3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 360px;
+    width: 100%;
+    justify-content: center;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+.subtitle_1 {
+    color: white;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.block_3_img {
+    margin-top: 30px;
+}
+
+.flex-4 {
+    display: flex;
+}
+
+.flex-4-1 {
+    width: 50%;
+    justify-content: flex-start;
+}
+
+.flex-4-2 {
+    width: 50%;
+    justify-content: flex-end;
+    color: black;
+}
+
+.sl-for-nv {
+    display: block;
+    text-align: -webkit-center;
+    margin-top: 5%;
+    min-width: 55%;
+}
+
+.subtitle_5 {
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: left;
+}
+
+.price {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    width: 80%;
+    margin-top: 15px;
+}
+
+.buynow {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+
+}
+
+.buynow a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.number {
+    width: 170px;
+}
+
+.button_2 {
+    width: 170px;
+    font-size: 17px;
+    padding: 10px 20px;
+    background-color: red;
+    text-align: center;
+}
+
+.p1 {
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.p2 {
+    font-size: 30px;
+    font-weight: 300;
+    background-image: url(img/line.png);
+    background-position: center;
+}
+
+.block_5 {
+    background-image: url(img/3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 360px;
+    width: 100%;
+    justify-content: center;
+}
+
+.get {
+    padding: 10px 20px;
+}
+
+.get {
+    color: black;
+}
+
+.button_1 {
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+input {
+    color: #00000000;
+    padding: 10px;
+}
+
+.flash-drive {
+    height: auto;
+    padding-bottom: 50px;
+}
+
+.flash-drive h2 {
+    color: black;
+}
+
+.flex-container-6 {
+    flex-wrap: wrap;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.flash-left {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    padding-bottom: 7%;
+    padding-top: 2%;
+}
+
+.flash4 img {
+    width: 100%;
+}
+
+.container {
+    display: flex;
+}
+
+.image {
+    flex-shrink: 0;
+}
+
+
+.info {
+    padding-left: 40px;
+}
+
+.flash-right {
+    max-width: 55%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5%;
+    padding-left: 20px;
+}
+
+.block_8 {
+    min-height: 400px;
+    margin-top: 50PX;
+}
+
+.slick-prev:before, .slick-next:before {
+    color: grey;
+}
+
+.block_8 h2 {
+    color: black;
+    padding-bottom: 50px;
+}
+
+.advantage_1 {
+    color: black;
+    background-color: lightgrey;
+    padding: 10px 15px;
+    margin: 20px 23px;
+    max-width: 250px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    -webkit-box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.75);
+    box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.75);
+}
+
+.headline_3 {
+    display: block;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 10px;
+}
+
+.subtitle_4 {
+    display: block;
+    font-size: 15px;
+    color: black;
+    padding: 15px;
+}
+
+.block_9 {
+    background-color: #f0efef;
+    min-height: 400px;
+}
+
+.flex-container-3 {
+    flex-wrap: wrap;
+    height: auto;
+    display: flex;
+    margin-top: 20px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.block_9 h2 {
+    padding: 70px;
+    color: black;
+}
+
+.flex-container-4 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: -50px;
+}
+
+.order {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 10px;
+}
+
+.order1 > p {
+    font-size: 70px;
+    /*font-color: grey;*/
+}
+
+.order2 {
+    display: flex;
+    width: 200px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.headline_1 {
+    display: block;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.subtitle_2 {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    color: black;
+}
+
+.block_10 h2 {
+    color: black;
+}
+
+.adv {
+    color: black;
+    background-color: #ffffff;
+    padding: 10px 10px;
+    margin: 20px 5px;
+    max-width: 230px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    -webkit-box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.75);
+    box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.75);
+}
+
+.headline_2 {
+    display: block;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 10px;
+}
+
+.subtitle_3 {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    color: black;
+}
+
+.wrap_1 {
+    text-align: center;
+    position: relative;
+}
+
+#div-1a {
+    position: absolute;
+    top: 120%;
+    width: 200px;
+    z-index: 10;
+    padding-left: 25%;
+    margin-top: 5%;
+}
+
+.map-discription {
+    width: 345px;
+    background-color: #00000052;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+footer {
+    height: 100px;
+}
+
+.flex-container-5 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    height: 100px;
+    justify-content: space-around;
+    background: black;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px
+    }
+}
+
+#logo {
+    float: left;
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 11px 0
+}
+
+nav {
+    width: auto;
+    float: right;
+    margin-top: 7px;
+    margin-left: 20%;
+}
+
+nav ul {
+    display: table;
+    float: right;
+    margin: 0;
+    padding: 0
+}
+
+nav ul li {
+    float: left;
+    list-style-type: none
+}
+
+nav ul li:last-child {
+    padding-right: 0
+}
+
+nav ul li a {
+    color: grey;
+    font-size: 19px;
+    padding: 7px 19px;
+    display: inline-block;
+    text-decoration: none
+}
+
+nav ul li a:hover {
+    color: white;
+}
+
+.toggle-menu ul {
+    display: table;
+    width: 31px;
+    padding-left: 0;
+    margin: 5px 0;
+    float: right;
+}
+
+.toggle-menu ul li {
+    width: 100%;
+    height: 3px;
+    background-color: #e9f0f7;
+    margin-bottom: 4px;
+    list-style: none
+}
+
+.toggle-menu ul li:last-child {
+    margin-bottom: 0
+}
+
+input[type=checkbox], label {
+    display: none
+}
+
+@media only screen and (max-width: 967px) {
+    header {
+        padding: 20px 0
+    }
+
+    #logo {
+        padding: 0px;
+        margin-left: 10px;
+    }
+
+    svg {
+        max-width: 503px;
+    }
+
+    input[type=checkbox] {
+        position: absolute;
+        top: -7777px;
+        left: -7777px;
+        background: none
+    }
+
+    input[type=checkbox]:focus {
+        background: none
+    }
+
+    label {
+        float: right;
+        display: inline-block;
+        cursor: pointer;
+        margin-left: 80%;
+    }
+
+    input[type=checkbox]:checked ~ nav {
+        display: block
+    }
+
+    nav {
+        display: none;
+        position: absolute;
+        right: 0;
+        top: 64px;
+        background-color: #5b5352;
+        padding: 0;
+        z-index: 99
+    }
+
+    nav ul {
+        width: auto
+    }
+
+    nav ul li {
+        float: none;
+        padding: 0;
+        width: 100%;
+        display: table
+    }
+
+    nav ul li a {
+        color: #FFF;
+        font-size: 15px;
+        padding: 10px 50px;
+        text-align: center;
+        display: block;
+        border-bottom: 1px solid rgba(225, 225, 225, 0.1)
+    }
+
+    .element-1 {
+        padding: 0 10px;
+    }
+
+    .element-3 {
+        margin-right: 90px;
+    }
+
+    .info {
+        padding-left: 0px;
+    }
+
+    .flash-right {
+        padding-right: 20px;
+    }
+
+    .flash-left {
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 862px) {
+    .wrap_2 {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .flex-4 {
+        flex-wrap: wrap;
+    }
+
+
+    .flex-4-1 {
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+
+    .flex-4-2 {
+        width: 100%;
+        justify-content: flex-end;
+        color: black;
+    }
+
+    label {
+        margin-left: 70%;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    label {
+        padding: 5px 0;
+        margin-left: 50%;
+    }
+
+    #logo {
+        font-size: 1.1rem
+    }
+
+    nav {
+        top: 47px
+    }
+}
+
+@media only screen and (max-width: 625px) {
+    svg {
+        max-width: 275px;
+    }
+}

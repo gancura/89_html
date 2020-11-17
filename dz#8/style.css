@@ -1,6 +1,7 @@
 .block_1 {
     height: 500px;
     background: url("img/block_1.png");
+    background-size: cover;
     margin: -8px;
 }
 
@@ -19,7 +20,7 @@
 }
 
 .element-2 {
-    margin-top: 5%;
+    margin-top: 4%;
 }
 
 .element-3 a {
@@ -27,10 +28,10 @@
     text-decoration: none;
     color: white;
     background-color: #78717145;
-    padding: 5px 25px;
+    padding: 8px 35px;
     border: 2px solid;
-    margin-top: 5%;
-    margin-left: -6%;
+    margin-top: 1.5%;
+    margin-left: -4%;
 }
 
 body {
@@ -46,7 +47,7 @@ header {
 
 .container {
     width: 100%;
-    padding-top: 50px;
+    padding-top: 30px;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
@@ -127,7 +128,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 360px;
+    height: 500px;
     width: 100%;
     justify-content: center;
 }
@@ -160,6 +161,14 @@ h2 {
 
 .block_3_img {
     margin-top: 30px;
+}
+
+.wrap_3 {
+    width: 76vw;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    min-height: 570px;
 }
 
 .flex-4 {
@@ -290,6 +299,7 @@ input {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    font-size: 18px;
 }
 
 .flash-left {
@@ -315,22 +325,33 @@ input {
 
 
 .info {
-    padding-left: 40px;
+    /*padding-left: 40px;*/
+    font-size: 19px;
 }
 
 .flash-right {
-    max-width: 55%;
+    /*max-width: 55%;*/
     text-align: left;
     display: flex;
     flex-direction: column;
     padding-bottom: 5%;
-    padding-left: 20px;
+    /*padding-left: 20px;*/
 }
 
 .block_8 {
     min-height: 400px;
     margin-top: 50PX;
 }
+
+.wrap_2 {
+    width: 56.8%;
+    margin: 0 auto;
+    position: relative;
+    min-height: 400px;
+}
+
+
+
 
 .slick-prev:before, .slick-next:before {
     color: grey;
@@ -340,6 +361,7 @@ input {
     color: black;
     padding-bottom: 50px;
 }
+
 
 .advantage_1 {
     color: black;
@@ -381,6 +403,11 @@ input {
     flex-direction: row;
     justify-content: center;
     align-items: stretch;
+}
+
+.line {
+    display: flex;
+    justify-content: center;
 }
 
 .block_9 h2 {
@@ -486,7 +513,7 @@ input {
 
 .map-discription {
     width: 345px;
-    background-color: #00000052;
+    background-color: #6f6c6c8a;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -715,4 +742,10 @@ input[type=checkbox], label {
     svg {
         max-width: 275px;
     }
+
+    .flash-right {
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+}
 }

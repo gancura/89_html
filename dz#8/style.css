@@ -184,6 +184,9 @@ h2 {
     width: 50%;
     justify-content: flex-end;
     color: black;
+    padding-top: 5%;
+    padding-left: 10%;
+
 }
 
 .sl-for-nv {
@@ -191,6 +194,7 @@ h2 {
     text-align: -webkit-center;
     margin-top: 5%;
     min-width: 55%;
+    padding-left: 20%;
 }
 
 .subtitle_5 {
@@ -608,9 +612,23 @@ input[type=checkbox], label {
     display: none
 }
 
+@media only screen and (max-width: 1008px) {
+    nav ul li {
+        display: none;
+    }
+
+    label {
+        /*display: block;*/
+        float: right;
+        display: inline-block;
+        cursor: pointer;
+        margin-left: 80%;
+    }
+}
+
 @media only screen and (max-width: 967px) {
     header {
-        padding: 20px 0
+        padding: 20px 0;
     }
 
     #logo {

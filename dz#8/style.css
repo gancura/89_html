@@ -184,6 +184,9 @@ h2 {
     width: 50%;
     justify-content: flex-end;
     color: black;
+    padding-top: 5%;
+    padding-left: 10%;
+
 }
 
 .sl-for-nv {
@@ -191,6 +194,7 @@ h2 {
     text-align: -webkit-center;
     margin-top: 5%;
     min-width: 55%;
+    padding-left: 20%;
 }
 
 .subtitle_5 {
@@ -349,8 +353,6 @@ input {
     position: relative;
     min-height: 400px;
 }
-
-
 
 
 .slick-prev:before, .slick-next:before {
@@ -608,18 +610,28 @@ input[type=checkbox], label {
     display: none
 }
 
+@media only screen and (max-width: 1008px) {
+    nav ul li {
+        display: none;
+    }
+
+    label {
+        /*display: block;*/
+        float: right;
+        display: inline-block;
+        cursor: pointer;
+        margin-left: 80%;
+    }
+}
+
 @media only screen and (max-width: 967px) {
     header {
-        padding: 20px 0
+        padding: 20px 0;
     }
 
     #logo {
         padding: 0px;
         margin-left: 10px;
-    }
-
-    svg {
-        max-width: 503px;
     }
 
     input[type=checkbox] {
@@ -693,9 +705,18 @@ input[type=checkbox], label {
     .flash-left {
         padding-right: 20px;
     }
+
+    .filtering {
+        min-width: 170%;
+    }
+
+    .line {
+        padding-left: 30%;
+        max-width: 350px;
+    }
 }
 
-@media (max-width: 862px) {
+@media only screen and (max-width: 862px) {
     .wrap_2 {
         margin: 0px;
         padding: 0px;
@@ -721,6 +742,12 @@ input[type=checkbox], label {
     label {
         margin-left: 70%;
     }
+
+    .line {
+        padding-left: 40%;
+        padding-right: 40%;
+        max-width: 150px;
+    }
 }
 
 @media only screen and (max-width: 360px) {
@@ -736,16 +763,22 @@ input[type=checkbox], label {
     nav {
         top: 47px
     }
+
+    .line {
+        padding-left: 40%;
+        max-width: 100px;
+    }
 }
 
 @media only screen and (max-width: 625px) {
-    svg {
-        max-width: 275px;
-    }
 
     .flash-right {
         text-align: left;
         display: flex;
         flex-direction: column;
 }
+    .line {
+        padding-left: 40%;
+        max-width: 100px;
+    }
 }

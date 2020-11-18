@@ -1,4 +1,4 @@
-@charset "UTF-8";
+@charset 'UTF-8';
 /* Slider */
 .slick-loading .slick-list
 {
@@ -68,10 +68,10 @@
 {
     font-family: 'slick';
     font-size: 20px;
-    line-height: 17;
+    line-height: 1;
 
     opacity: .75;
-    color: #615b5b;
+    color: darkgrey;
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -79,7 +79,7 @@
 
 .slick-prev
 {
-    left: 98%;
+    left: -25px;
 }
 [dir='rtl'] .slick-prev
 {

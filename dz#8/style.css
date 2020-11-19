@@ -54,6 +54,10 @@ header {
     margin-left: auto
 }
 
+.toggle-menu {
+    display: none;
+}
+
 .button {
     color: white;
     background-color: firebrick;
@@ -207,6 +211,28 @@ h2 {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     text-align: left;
+}
+
+.caption{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    width: 500px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+}
+.caption p{
+    text-align: left;
+}
+
+.choose{
+    max-width: 340px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    font-size: 17px;
+    font-weight: 600;
 }
 
 .price {
@@ -606,8 +632,8 @@ nav ul li a:hover {
     margin-bottom: 0
 }
 
-input[type=checkbox], label {
-    display: none
+.checkbox, label {
+    display: block;
 }
 
 @media only screen and (max-width: 1008px) {
@@ -622,6 +648,10 @@ input[type=checkbox], label {
         cursor: pointer;
         margin-left: 80%;
     }
+
+    .toggle-menu {
+        display:block;
+    }
 }
 
 @media only screen and (max-width: 967px) {
@@ -634,14 +664,14 @@ input[type=checkbox], label {
         margin-left: 10px;
     }
 
-    input[type=checkbox] {
+    .checkbox {
         position: absolute;
         top: -7777px;
         left: -7777px;
-        background: none
+        /*background: none*/
     }
 
-    input[type=checkbox]:focus {
+    .checkbox:focus {
         background: none
     }
 
@@ -652,7 +682,7 @@ input[type=checkbox], label {
         margin-left: 80%;
     }
 
-    input[type=checkbox]:checked ~ nav {
+    .checkbox:checked ~ nav {
         display: block
     }
 

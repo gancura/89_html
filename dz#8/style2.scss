@@ -1,0 +1,46 @@
+// Выключаем стандартный стиль checkbox'а
+.checkbox-login01 {
+  display: none;
+}
+// Так будет выглядеть checkbox в состянии off
+.style-login01 {
+  // inline-block для того, что-бы текст был напротив
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  border: 4px solid #e6e9ed;
+  background-color: #ffff;
+  position: relative;
+  margin-right: 10px;
+  cursor: pointer;
+  // Так будет выглядеть checkbox в состянии on "checked"
+  &::before {
+    content: '✔';
+    position: absolute;
+    color: #ffffff;
+    font-size: 10px;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #ec1a28;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: .3s;
+  }
+}
+// Стили для текста
+.text-login01 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  cursor: pointer;
+}
+// Соеденяем при нажатии становится не прозрачным стиль
+.checkbox-login01:checked + .style-login01::before {
+  opacity: 1;
+}
